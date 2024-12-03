@@ -8,6 +8,10 @@ module.exports = {
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
       },
+      colors: {
+        'chart-blue': '#36A2EB',
+        'chart-dark': '#2F2F2F',
+      }
     },
   },
   plugins: [],
