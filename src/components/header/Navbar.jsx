@@ -26,9 +26,9 @@ const Navbar = () => {
             <a href="/about" className="text-gray-700 hover:text-gray-900 w-full text-center py-2">About</a>
             <a href="/news" className="text-gray-700 hover:text-gray-900 w-full text-center py-2">News</a>
             <a href="/media" className="text-gray-700 hover:text-gray-900 w-full text-center py-2">Media</a>
-            <a href="/facts" className="text-gray-700 hover:text-gray-900 w-full text-center py-2">Facts</a>
+            {/* <a href="/facts" className="text-gray-700 hover:text-gray-900 w-full text-center py-2">Facts</a> */}
             <a href="/transparency" className="text-gray-700 hover:text-gray-900 w-full text-center py-2">Transparency</a>
-            <a href="/whitepaper" className="text-gray-700 hover:text-gray-900 w-full text-center py-2">Whitepaper</a>
+            {/* <a href="/whitepaper" className="text-gray-700 hover:text-gray-900 w-full text-center py-2">Whitepaper</a> */}
             <a href="/contact" className="text-gray-700 hover:text-gray-900 w-full text-center py-2">Contact Us</a>
             
             {/* Auth Buttons in Mobile Menu */}
@@ -63,9 +63,9 @@ const Navbar = () => {
           <a href="/about" className="text-gray-700 hover:text-gray-900">About</a>
           <a href="/news" className="text-gray-700 hover:text-gray-900">News</a>
           <a href="/media" className="text-gray-700 hover:text-gray-900">Media</a>
-          <a href="/facts" className="text-gray-700 hover:text-gray-900">Facts</a>
-          <a href="/transparency" className="text-gray-700 hover:text-gray-900">Transparency</a>
-          <a href="/whitepaper" className="text-gray-700 hover:text-gray-900">Whitepaper</a>
+          {/* <a href="/facts" className="text-gray-700 hover:text-gray-900">Facts</a> */}
+          <Link to="/transparency" className="text-gray-700 hover:text-gray-900">Transparency</Link>
+          {/* <Link to="/build-currency" className="text-gray-700 hover:text-gray-900">Whitepaper</Link> */}
           <a href="/contact" className="text-gray-700 hover:text-gray-900">Contact Us</a>
         </div>
 

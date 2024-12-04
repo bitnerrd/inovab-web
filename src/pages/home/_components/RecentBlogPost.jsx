@@ -27,7 +27,7 @@ const RecentBlogPost = () => {
       author: "Lana Steiner",
       date: "18 Jan 2022",
       description: "The rise of RESTful APIs has been met by a rise in tools for creating, testing, and managing...",
-      image: "/src/assets/Image (2).png",
+      image: "/src/assets/Image (5).png",
       tags: ["Design", "Research"]
     }
   ]
